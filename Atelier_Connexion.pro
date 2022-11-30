@@ -27,22 +27,25 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
+    arduino.cpp \
     avocat.cpp \
-    log.cpp \
+    logins.cpp \
         main.cpp \
     connection.cpp \
-    mainwindow.cpp \
+    mainwindow.cpp \ \
     personne.cpp
 
 HEADERS += \
+    arduino.h \
     avocat.h \
     connection.h \
-    log.h \
-    mainwindow.h \
+    logins.h \
+    mainwindow.h \ \
     personne.h
 
+
 FORMS += \
-    log.ui \
+    logins.ui \
     mainwindow.ui
 
 # Default rules for deployment.

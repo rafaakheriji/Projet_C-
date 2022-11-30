@@ -1,16 +1,16 @@
-#ifndef LOGIN_H
-#define LOGIN_H
+#ifndef PERSONNE_H
+#define PERSONNE_H
+#include <QString>
 
-#include <QMainWindow>
-
-class login : public QMainWindow
+class personne
 {
-    Q_OBJECT
 public:
-    explicit login(QWidget *parent = nullptr);
-
-signals:
+    personne();
+    personne(int,QString);
+private:
+    int identifiant ;
+    QString mdp ;
 
 };
 
-#endif // LOGIN_H
+#endif // PERSONNE_H
